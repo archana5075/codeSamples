@@ -1,0 +1,264 @@
+/*Author: Archana*/
+
+body{
+	background-color: "pink";
+	color:#000305;
+	font-size: 87.5%;
+	font-family: Arial;
+	line-height: 1.5;
+	text-align: left;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:link, a:visited{
+	color: #CF5C3F;
+}
+
+a:hover,a:active{
+	background-color: #CF5C3F;
+	color: #fff;
+}
+
+
+.body{
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+.mainHeader img{
+
+	width: 5%;
+	height: auto;
+	margin: 2% 0;
+}
+
+.mainHeader nav{
+
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+
+}
+
+.mainHeader nav ul{
+	list-style: none;
+	margin: 0 auto;
+}
+
+.mainHeader nav ul li{
+	float: left;
+	display: inline;
+}
+
+.mainHeader nav a:link,
+.mainHeader nav a:visited{
+
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+	height: 20px;
+}
+
+.mainHeader nav a:hover, 
+.mainHeader nav a:active, 
+.mainHeader nav .active a:link,
+.mainHeader nav .active a:visited{
+
+	background-color:  #CF5C3F;
+	text-shadow: none;
+}
+
+.mainHeader nav ul li a{
+
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+}
+
+.mainContent{
+
+	border-radius: 5px;
+	line-height: 25px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+.content{
+	width: 70%;
+	float: left;
+}
+
+.topContent{
+background-color: #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3% 5%;
+margin-top: 0.5%;
+}
+
+.bottomContent{
+background-color: #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3% 5%;
+margin-top: 2%;
+}
+
+.post-info{
+	font-style: italic;
+	color: #999;
+	font-size: 95%;
+}
+
+.top-sidebar{
+
+	width: 23%;
+	float: left;
+	background-color: #F5F5DC ;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin: 0.5% 0 1% 1%;
+    padding: 2% 3%;
+}
+
+.middle-sidebar{
+
+	width: 23%;
+	float: left;
+	background-color: #FFE4C4;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 2% 3%;
+}
+
+.bottom-sidebar{
+
+	width: 23%;
+	float: left;
+	background-color: #DEB887;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 2% 3%;
+}
+
+.mainFooter{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-web-border-radius: 5px;
+	background-color: #666;
+	height: 40px;
+	margin: 1% 0;
+}
+
+.mainFooter p{
+	width: 94%;
+	margin: 1% auto;
+	color: #fff;
+}
+
+@media only screen and (min-width: 150px) and (max-width: 600px)
+{
+
+
+	.body{
+     		width: 90%;
+	   		font-size: 95%;
+ }
+
+.mainHeader img{
+	width: 100%;
+}
+
+.mainHeader nav{
+	height: 160px;
+}
+
+.mainHeader nav ul{
+padding-left: 0;
+}
+
+.mainHeader nav ul li{
+width:  100%;
+text-align: center;
+}
+
+.mainHeader nav a:link,
+.mainHeader nav a:visited{
+	padding: 10px 25px;
+	height: 20px;
+	display: block;
+}
+.mainHeader nav ul li a{
+ border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+
+.mainContent{
+
+	border-radius: 5px;
+	line-height: 25px;
+	-moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+
+.content{
+	width: 100%;
+	float: left;
+	margin-top: 2%;
+}
+
+.post-info{
+
+	display: none;
+}
+
+.topContent{
+background-color: #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3% 5%;
+margin-top: 0.5%;
+}
+
+.bottomContent{
+background-color: #fff;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+padding: 3% 5%;
+margin-top: 2%;
+}
+
+
+.top-sidebar,.middle-sidebar,.bottom-sidebar{
+
+	width: 94%;
+	margin: 2% 0 2% 0;
+	padding: 2% 3%;
+}
+
+}
+
+

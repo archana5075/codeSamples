@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<title>Loans</title>
+<link rel="stylesheet" href="WebContent/css/screen.css"></link>
+<h1>Loan Details</h1>
+</head>
+
+<body>
+
+<div id="loans">
+  <div class="loanContainer">
+   <img src="WebContent/img/passport.jpg" />
+   <ul>
+     <li>Applicant Id</li>
+     <li>Loan Id</li>
+     <li>Amount</li>
+     <li>Type</li>
+     <li>Interest</li>  
+    </ul>
+  </div>
+</div>
+
+<script id="loanTemplate" type="text/template">
+    <img src="<%= applicantImage %>" />
+     <ul>
+       <li><%= applicantId%></li>
+       <li><%= loanId%></li>
+       <li><%= amount%></li>
+       <li><%= type%></li>
+       <li><%= interest%></li>       
+     </ul>
+</script>
+<script src="WebContent/js/jquery-1.7.1.js"></script>
+<script src="WebContent/js/underscore.js"></script>
+<script src="WebContent/js/backbone.js"></script>
+<script src="WebContent/js/app.js"></script>
+
+</body>
+</html>

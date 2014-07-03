@@ -1,0 +1,21 @@
+body {
+    background-color: #eee;
+}
+.loanContainer {
+    border: 1px solid #aaa;
+    width: 260px;
+    height: 140px;
+    background-color: #fff;
+    float: left;
+    margin: 5px;
+}
+
+.loanContainer img {
+    float: left;
+    margin: 10px;
+    width: 130px;
+}
+
+.loanContainer ul {
+    list-style-type: none;
+}

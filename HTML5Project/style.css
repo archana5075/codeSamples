@@ -1,0 +1,45 @@
+body{
+    
+   margin: 0;
+   border: 0;
+   padding: 0;
+   background: transparent;
+
+}
+
+#container{
+	margin: 100px;
+	background-color: lightBlue;
+	border:0px solid;
+    border-radius:20px;
+	text-indent: 10px;
+	box-shadow: 5px 5px 5px #888888;
+	padding: 0;
+
+}
+
+#header {
+
+	padding: 0;
+}
+
+#asideContent{
+	background-color:Gold;
+	height: 800px;
+	width: 30%;
+	float: left;
+}
+
+#content{
+     
+    background-color:#EEEEEE;
+    height: 800px;
+	width: 70%;
+	float:left;
+	
+}
+
+#footer{
+
+	text-align:center;
+}

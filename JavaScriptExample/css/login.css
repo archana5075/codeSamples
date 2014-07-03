@@ -1,0 +1,59 @@
+@CHARSET "ISO-8859-1";
+body{
+	margin: 0;
+	padding: 0;
+}
+
+#page_container{
+	
+	width: 500px;
+	background-color: #232323;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	height: 400px;
+}
+
+
+#top_label{
+	color: white;
+	padding-left: 15%;
+	padding-top: 12%;
+	font-size: 14px;
+	font-family: arial;
+	font-weight: bolder;
+	
+}
+
+#userid, #passid{
+	width: 350px;
+	border-radius:2px;
+	margin-left: 15%;
+	margin-top: 4%;
+	background-color: #e8e8e8;
+	padding: 6px;
+	font-size:12px;
+}
+
+#dis, #disPwd{
+	margin-left: 20%;
+	margin-top: 4%;
+	color: red;
+	font-weight: bold;
+}
+
+#buttonId{
+	margin-left: 15%;
+	margin-top: 4%;
+	width:365px;
+	border-radius:2px;
+	background-color: #db4a39;
+	cursor: pointer;
+	color:white;
+	font-family: arial;
+	border:none;
+	padding: 6px;
+	font-size: 12px;
+	font-weight:bold;
+}
+

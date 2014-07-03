@@ -1,0 +1,98 @@
+
+body {
+font-size: 125%;
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+p {
+font-size: 75%;
+}
+
+h6 {
+font-size: 80%;
+}
+
+ #container{
+
+ 	margin: 100px;
+ 	background-color: lightBlue;
+ }
+
+#gallery {
+  margin:15px;
+  padding: 15px;
+  border:1px solid #0000ff;
+  height:100px;
+  width:100px;
+  float:left;
+  text-align:center;
+  background-color: Gold;
+}
+
+#gallery img{
+
+	 display:inline;
+	 border:1px solid #ffffff;
+}
+
+figcaption {
+font-size: 75%;
+}
+
+.newRow {
+clear: both;
+}
+
+.thumbnail {
+float: left;
+border: 2px solid #fff;
+margin: 0 15px 15px 0;
+background:#888;
+color:#fff;
+width:102px;
+}
+	
+.thumbnail img {
+border: 1px solid #000;
+}
+
+.scale:hover {
+transform:  scale(2);
+-moz-transform: scale(2);
+-webkit-transform:  scale(2);
+-o-transform:  scale(2);
+}
+
+.skew:hover {
+transform: skew(45deg);
+-moz-transform: skew(45deg);
+-webkit-transform: skew(45deg);
+-o-transform: skew(45deg);
+}
+
+.rotate:hover {
+transform: rotate(90deg);
+-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+}
+
+.translate:hover {
+transform: translate(25px,25px);
+-moz-transform: translate(25px,25px);
+-webkit-transform: translate(25px,25px);
+-o-transform: translate(25px,25px);
+}
+
+.animate:hover {
+transform:  scale(1.5) rotate(45deg);
+-moz-transform: scale(1.5) rotate(45deg);
+-webkit-transform:  scale(1.5) rotate(45deg);
+-o-transform:  scale(1.5) rotate(45deg);
+transition: all .5s ease-in;
+-moz-transition: all .5s ease-in;
+-webkit-transition: all .5s ease-in;
+-o-transition: all .5s ease-in;
+}
